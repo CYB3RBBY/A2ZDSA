@@ -45,7 +45,7 @@ int main(){
         cout << "You have secured grade E." << endl;
     }
     else{
-        cout << "Invalid grade." << endl;
+        cout << "You have failed grade = F" << endl;
     }
     return 0 ;
 }
