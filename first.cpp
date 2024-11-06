@@ -34,6 +34,9 @@ using namespace std;
 // long = 4 bytes
 // long long = 8 bytes
 // float , double 
+// string and getline
+// char 
+
 
 int main(){
     int x = 10;
@@ -42,6 +45,18 @@ int main(){
     float a = 1.5;
     float b = 9.9;
     double c = 1.56;
+    // string s1 , s2 ;
+    // cin >> s1 >> s2;
+    // cout << s1 << " " << s2 << "\n";
+    char ch = 'g';
+    // cin >> ch;
+    // cout << ch;
+    string chh = "g";
+    // cout << chh;
+    string str;
+    getline(cin, str);
+    cout << "You entered: " << str;
+    return 0;
     cout << "value of x is " << x <<"\n";
     cout << "value of y is " << y <<"\n";
     cout << "value of z is " << z <<"\n";
