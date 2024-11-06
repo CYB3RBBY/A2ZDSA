@@ -13,8 +13,8 @@ using namespace std;
 // cin 
 
 int main(){
-    int x;
-    cin >> x;
-    cout << "You entered: " << x;
+    int x, y;
+    cin >> x >> y;
+    cout << "You entered x: " << x << " and y:" <<y;
     return 0;
 }
