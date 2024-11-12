@@ -5,7 +5,7 @@ using namespace std;
 
 void pattern14(int n){
    for (int i = 0; i < n; i++){
-    for (char c = 'A'; c <= 'A' + i; c++){
+    for (char c = 'A'; c <= 'A' + i;c++){
         cout << c<< " ";
     }
     cout << endl;
